@@ -1,8 +1,16 @@
 import random
 
+phonebook = ()
 phonebook = {'Chris':'555−1111',
              'Katie':'555−2222',
              'Joanne':'555−3333'}
+
+
+
+mydictionary = dict(m=8, m=9)
+print(mydictionary)
+
+print (f"number of key-value pairs: (len(phonebook"))
 
 
 
@@ -19,7 +27,7 @@ print('*****  end section 1 ********')
 print()
 
 
-'''
+
 
 
 print()
@@ -55,13 +63,15 @@ print('*****  end section 3 ********')
 print()
 
 
-
-
+""""
 
 
 print()
 print('*****  start section 4 - delete/remove from dictionary ********')
 print()
+
+print(phonebook)
+del phonebook["chris"]
 
 
 
@@ -72,7 +82,7 @@ print()
 
 
 
-
+"""
 
 
 print()
